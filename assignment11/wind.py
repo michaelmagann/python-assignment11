@@ -25,7 +25,6 @@ fig = px.scatter(
     title="Wind Strength vs Frequency"
 )
 
-
-fig.write_html("wind.html")
+fig.write_html("wind.html", auto_open=True)
 
 fig.show()
